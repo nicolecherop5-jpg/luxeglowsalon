@@ -48,7 +48,7 @@ body {
 .hero {
     height: 100vh;
     padding: 0 20px;
-    background: linear-gradient(rgba(255, 182, 193, 0.6), rgba(255, 182, 193, 0.6)),
+    background: linear-gradient(rgba(214, 51, 132, 0.65), rgba(214, 51, 132, 0.65)),
         url("images/hair.jpg") center/cover no-repeat;
     display: flex;
     justify-content: center;
@@ -58,7 +58,17 @@ body {
 }
 
 .hero-content {
-    max-width: 700px;
+    max-width: 750px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-top: 15px;
 }
 
 /* Buttons */
@@ -269,10 +279,11 @@ form select {
 }
 
 footer {
-    background: #ffb3d9;
-    padding: 20px;
+    background: linear-gradient(45deg, #ff66b2, #ff99cc);
+    padding: 30px 20px;
     text-align: center;
     color: white;
+    font-size: 1rem;
 }
 
 .container {
@@ -281,6 +292,20 @@ footer {
 }
 
 .about {
+    background: white;
     text-align: center;
-    background: #fff5f9;
+    padding: 80px 20px;
+}
+
+.about h2 {
+    color: #d63384;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+    color: #555;
 }
