@@ -47,16 +47,27 @@ body {
 /* HERO SECTION */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(255, 182, 193, 0.6),
-            rgba(255, 182, 193, 0.6)),
-        url("images/hair.jpg") center/cover no-repeat;
-
+    background: url("images/hair.jpg") center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #5a2a40;
     padding: 20px;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.4));
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    max-width: 800px;
 }
 
 .hero-content {
