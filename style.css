@@ -353,3 +353,55 @@ footer {
     font-size: 1.1rem;
     color: #555;
 }
+
+/* ================= MOBILE FIX ================= */
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    /* Stack services */
+    .services-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    /* Make service text bigger */
+    .service-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .service-card p {
+        font-size: 1rem;
+    }
+
+    /* Resize service images */
+    .service-card img {
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .service-card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    /* Fix hero text size */
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    /* Reduce large padding */
+    section {
+        padding: 50px 20px;
+    }
+
+}
