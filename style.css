@@ -47,28 +47,44 @@ body {
 /* HERO SECTION */
 .hero {
     height: 100vh;
-    padding: 0 20px;
-    background: linear-gradient(rgba(214, 51, 132, 0.65), rgba(214, 51, 132, 0.65)),
+    background: linear-gradient(rgba(214, 51, 132, 0.7), rgba(214, 51, 132, 0.7)),
         url("images/hair.jpg") center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+    padding: 20px;
 }
 
 .hero-content {
-    max-width: 750px;
+    max-width: 700px;
 }
 
 .hero-content h1 {
     font-size: 3.5rem;
-    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .hero-content p {
     font-size: 1.3rem;
-    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #d63384;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffe6f0;
+    transform: translateY(-3px);
 }
 
 /* Buttons */
