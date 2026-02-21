@@ -358,50 +358,77 @@ footer {
 
 @media (max-width: 768px) {
 
-    body {
-        font-size: 16px;
+    .contact-form {
+        padding: 20px;
     }
 
-    /* Stack services */
-    .services-container {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 30px;
+    .contact-form h2 {
+        font-size: 1.6rem;
     }
 
-    /* Make service text bigger */
-    .service-card h3 {
-        font-size: 1.3rem;
-    }
-
-    .service-card p {
-        font-size: 1rem;
-    }
-
-    /* Resize service images */
-    .service-card img {
-        height: 220px;
-        object-fit: cover;
-    }
-
-    .service-card img {
+    .contact-form button {
         width: 100%;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 15px;
+        padding: 14px;
     }
 
-    /* Fix hero text size */
-    .hero-content h1 {
-        font-size: 2rem;
-    }
+}
 
-    .hero-content p {
-        font-size: 1rem;
-    }
+/* Stack services */
+.services-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
 
-    /* Reduce large padding */
-    section {
-        padding: 50px 20px;
-    }
+/* Make service text bigger */
+.service-card h3 {
+    font-size: 1.3rem;
+}
 
+.service-card p {
+    font-size: 1rem;
+}
+
+/* Resize service images */
+.service-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.service-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Fix hero text size */
+.hero-content h1 {
+    font-size: 2rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+}
+
+/* Reduce large padding */
+section {
+    padding: 50px 20px;
+}
+
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
 }
